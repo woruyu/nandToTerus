@@ -5,7 +5,7 @@ import { Translator } from "./translator/translator";
 
 
 
-assembly();
+// assembly();
 function assembly(){
   if (process.argv.length > 3) {
     throw error("avalible argv: --signalfile or --collectorfile");
