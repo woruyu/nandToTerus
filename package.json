@@ -9,6 +9,7 @@
   "author": "woruyu",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^20.4.5",
     "fs-extra": "^10.0.1"
   },
   "devDependencies": {

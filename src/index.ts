@@ -29,8 +29,4 @@ function translator(){
 
   const parser = new Translator(argv);
   parser.start();
-
-  const resultString = parser.codeWriter.asmFile.join('\n');
-  const path = __dirname +'/../' +argv.split(".")[0] + ".asm";
-  writeFileSync(path,resultString);
 }
